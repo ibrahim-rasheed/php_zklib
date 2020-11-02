@@ -1,0 +1,16 @@
+{
+    "name": "ibbe/php_zklib",
+    "type": "library",
+    "description": "ZK library to connect with attendance devices in PHP",
+    "keywords": ["ZK","zkteco","sdk","attendance"],
+    "homepage": "https://github.com/ibrahim-rasheed",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ibrahim Rasheed",
+            "email": "ibrahim00018@gmail.com",
+            "homepage": "https://github.com/ibrahim-rasheed",
+            "role": "Developer"
+        }
+    ]
+}

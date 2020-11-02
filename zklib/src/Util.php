@@ -59,6 +59,8 @@ class Util
     
     const ATT_TYPE_CHECK_IN = 0;
     const ATT_TYPE_CHECK_OUT = 1;
+    const ATT_TYPE_BREAK_OUT = 2;
+    const ATT_TYPE_BREAK_IN = 3;
     const ATT_TYPE_OVERTIME_IN = 4;
     const ATT_TYPE_OVERTIME_OUT = 5;
 
@@ -319,6 +321,12 @@ class Util
                 break;
             case self::ATT_TYPE_OVERTIME_OUT:
                 $ret = 'Overtime-out';
+                break;
+            case self::ATT_TYPE_BREAK_OUT:
+                $ret = 'Break-out';
+                break;
+            case self::ATT_TYPE_BREAK_IN:
+                $ret = 'Break-in';
                 break;
             default:
                 $ret = 'Undefined';
