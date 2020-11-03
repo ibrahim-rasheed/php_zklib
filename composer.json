@@ -12,5 +12,17 @@
             "homepage": "https://github.com/ibrahim-rasheed",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {"ibbe\\php_zklib\\": "php_zklib/zklib/"},
+        "files": [
+            "php_zklib/zklib/ZKLib.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {"ibbe\\php_zklib\\": "php_zklib/zklib/"},
+        "files": [
+            "php_zklib/zklib/ZKLib.php"
+        ]
+    }
 }
