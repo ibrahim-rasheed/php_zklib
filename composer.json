@@ -14,9 +14,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {"ibbe\\php_zklib\\": "php_zklib/zklib/"}
+        "psr-4": {"ibbe\\php_zklib\\": "zklib/"}
     },
     "autoload-dev": {
-        "psr-4": {"ibbe\\php_zklib\\": "php_zklib/zklib/"}
+        "psr-4": {"ibbe\\php_zklib\\": "zklib/"}
     }
 }
